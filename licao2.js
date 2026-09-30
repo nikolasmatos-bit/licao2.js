@@ -33,9 +33,28 @@ return numero * numero
 console.log (multiplique(2,2))
 
 
-function aumento(numero){
-     return salario * 10
+function aumentarSalario(salario) {
+    return salario * 1.10;
+}
 
-}  
-                                                                                                                
-console.log (aumento(20)); 
+console.log(aumentarSalario(2000));
+
+function numeros() {
+    for (let i = 1; i <= 10; i++) {
+        console.log(i);
+    }
+}
+
+numeros();
+
+function somar() {
+    let soma = 0;
+
+    for (let i = 1; i <= 10; i++) {
+        soma = soma + i;
+    }
+
+    return soma;
+}
+
+console.log(somar());
